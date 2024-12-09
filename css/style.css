@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
-@import url('https://fonts.cdnfonts.com/css/hk-groteks');
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap"); */
+/* @import url('https://fonts.cdnfonts.com/css/hk-groteks'); */
 .calc-container * {
   font-family: "Manrope", sans-serif;
   padding: 0;
@@ -528,45 +528,20 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   }
 }
 
-.calc-download-button {
-  min-width: 378px;
-  height: 64px;
-  border: 1px solid #B49378;
-  background: #B49378;
-  border-radius: 40px;
-  letter-spacing: 0.05em;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  text-align: center;
-  line-height: 64px;
-  margin-bottom: 0px;
-}
+
 .calc-download-button span {
   display: inline-block;
-  font-family: 'HK Grotesk', sans-serif!important;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFFFFF;
   padding-right: 40px;
   background: url("../images/Union.svg") right no-repeat;
-}
-.calc-download-button:hover {
-  background-color: transparent;
-  -webkit-transition: background-color 0.3s ease 0s;
-  -o-transition: background-color 0.3s ease 0s;
-  transition: background-color 0.3s ease 0s;
-  border: 1px solid #B49378;
-}
-.calc-download-button:hover span {
-  color: #B49378;
-  background: url("../images/Union-braun.svg") right no-repeat;
 }
 @media (max-width: 1346px) {
   .calc-download-button {
     min-width: 320px;
   }
-  .calc-download-button span {
+  /* .calc-download-button span {
     font-size: 16px;
     padding-right: 30px;
     background: url('../images/Union.svg') 100% 47%/ 15px 15px no-repeat;
@@ -574,10 +549,10 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   .calc-download-button:hover span {
   color: #B49378;
   background: url("../images/Union-braun.svg") 100% 47%/ 15px 15px no-repeat;
-}
+} */
 }
 @media (max-width: 992px) {
-  .calc-download-button {
+  /* .calc-download-button {
     min-width: 330px;
     margin-right: 55px;
     margin-left: 15px;
@@ -589,7 +564,7 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   }
   .calc-download-button:hover span {
     background: url("../images/Union-braun.svg") 100% 47%/17px 17px no-repeat;
-  }
+  } */
 }
 @media (max-width: 767px) {
   .calc-download-button {
@@ -597,14 +572,14 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   }
 }
 @media (max-width: 450px) {
-    .calc-download-button span {
+    /* .calc-download-button span {
     font-size: 15px;
     padding-right: 30px;
     background: url("../images/Union.svg") 100% 50%/15px 15px no-repeat;
   }
   .calc-download-button:hover span {
     background: url("../images/Union-braun.svg") 100% 50%/15px 15px no-repeat;
-  }
+  } */
 }
 @media (max-width: 359px) {
   .calc-download-button {
@@ -619,12 +594,12 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   -webkit-transform: translate(50%, 0);
       -ms-transform: translate(50%, 0);
           transform: translate(50%, 0);
-  min-width: 290px;
+  /* min-width: 290px;
   height: 64px;
   border: 1px solid #B49378;
   background: #ffffff;
   border-radius: 40px;
-  font-family: 'HK Grotesk', sans-serif!important;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.05em;
@@ -634,16 +609,9 @@ input.calc-inp-matriza:hover, input.calc-inp-matriza:focus {
   color: #B49378;
   text-align: center;
   line-height: 64px;
-  cursor: pointer;
+  cursor: pointer; */
 }
-.calc-download-btn:hover {
-  background: #B49378;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  border: 1px solid #B49378;
-  color: #FFFFFF;
-}
+
 .calc-download-btn span {
   font-weight: 500;
 }
@@ -1596,4 +1564,38 @@ ul li {
   .circle-d_d2 {
     margin-right: 5px;
   }
+}
+.primary-button {
+  display: inline-block;
+  font-family: "Jura", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02857em;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  background-color: #26663B;
+  color: #FCFCFC;
+}
+.primary-button:hover {
+  background: #B49378;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  /* border: 1px solid #B49378; */
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+* {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;     /* Firefox */
 }
