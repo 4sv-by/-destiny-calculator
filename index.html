@@ -955,6 +955,13 @@
 									<div class="calc-inps-buttons" data-html2canvas-ignore="true">
 										<div class="calc-download-button primary-button">
 											<a href="#cta" class="scrollbtn"><span>ЗАМОВИТИ РОЗБІР МАТРИЦІ</span></a>
+											<script>
+												document.querySelector('.scrollbtn').addEventListener('click', function(event) {
+													event.preventDefault();
+
+													window.parent.postMessage('scrollToAnchor', '*');
+												});
+											</script>
 										</div>
 										<div class="calc-download-btn calc-hidden primary-button">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span></div>
 									</div>
