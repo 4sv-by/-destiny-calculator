@@ -961,6 +961,11 @@
 
 													window.parent.postMessage('scrollToAnchor', '*');
 												});
+
+												window.addEventListener('load', function() {
+													const iframeHeight = document.body.scrollHeight;
+													window.parent.postMessage({ type: 'iframeHeight', height: iframeHeight }, '*');
+												});
 											</script>
 										</div>
 										<div class="calc-download-btn calc-hidden primary-button">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span></div>
