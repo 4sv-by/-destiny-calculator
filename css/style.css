@@ -1004,7 +1004,7 @@ ul li {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #F3F1EC;
+  background: #e5e7eb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1076,7 +1076,7 @@ ul li {
 .cards {
   max-width: 301px;
   min-height: 258px;
-  background: #F3F1EC;
+  background: #e5e7eb;
   border-radius: 40px;
   padding: 30px !important;
   overflow-wrap: break-word !important;
