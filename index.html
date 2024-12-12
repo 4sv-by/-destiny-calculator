@@ -964,7 +964,7 @@
 
 												window.addEventListener('load', function() {
 													const iframeHeight = document.body.scrollHeight;
-													window.parent.postMessage({height: iframeHeight }, '*');
+													window.parent.postMessage({ type: 'iframeHeight', height: iframeHeight }, '*');
 												});
 											</script>
 										</div>
